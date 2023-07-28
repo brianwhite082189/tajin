@@ -1,0 +1,62 @@
+body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:500px;
+	flex-direction:column;
+}
+
+.container{
+	border:1px solid black;
+	box-sizing: border-box;
+	padding:20px;
+	background-color:gold;
+	
+}
+
+button{
+	width:70px;
+	border-radius:0%;
+	margin-left:10px;
+	border:1px solid black;
+	color:white;
+}
+
+input{
+	margin-top:5px;
+}
+
+
+.title{
+	position:absolute;
+	top:0px;
+}
+
+#redbtn{
+	background-color:red;
+}
+
+#orangebtn{
+	background-color:orange;
+}
+
+#yellowbtn{
+	background-color:yellow;
+	color:black;
+}
+
+#greenbtn{
+	background-color:green;
+}
+
+#bluebtn{
+	background-color:blue;
+}
+
+#indigobtn{
+	background-color:indigo;
+}
+
+#violetbtn{
+	background-color:violet;
+}
