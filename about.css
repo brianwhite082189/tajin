@@ -12,10 +12,12 @@ body{
     margin: 50px;
     height:700px;
     display:flex;
-    justify-content: center;
+    flex-direction:column;
+    justify-content: space-between;
     align-items:center;
     border-radius: 45px 45px;
     border:4px solid #6b7280;
+    overflow: auto;
 }
 
 .nav{
@@ -63,4 +65,18 @@ img{
     border-radius:45px 45px;
     border:4px solid #6b7280;
     opacity:0.95;
+}
+
+
+/* page text content*/
+
+.blurb{
+    width: 400px;
+    font-style:italic;
+}
+
+.name{
+font-size:25px;
+font-weight:bold;
+
 }
