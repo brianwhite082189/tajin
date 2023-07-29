@@ -109,3 +109,17 @@ font-weight:bold;
     }
     
 }
+
+@media screen and (max-width:400px){
+    button{
+        width:200px;
+    }
+
+    img{
+        width: 200px;
+    }
+
+    .blurb{
+        width:200px;
+    }
+}

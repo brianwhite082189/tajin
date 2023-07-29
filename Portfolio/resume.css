@@ -94,3 +94,18 @@ main{
         width:350px;
     }
 }
+
+@media screen and (max-width:400px){
+    button{
+        width:200px;
+    }
+
+    main{
+        margin:0 auto;
+       
+    }
+
+    .rand{
+        margin-left:40px;
+    }
+}
