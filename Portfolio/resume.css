@@ -74,3 +74,23 @@ aside{
 main{
     margin-left: 150px;
 }
+
+@media screen and (max-width:860px){
+    .nav{
+        flex-direction: column;
+    }
+
+    .nav{
+        height: 400px;
+        
+    }
+    button{
+        width:550px;
+    }
+}
+
+@media  screen and (max-width: 709px){
+    button{
+        width:350px;
+    }
+}

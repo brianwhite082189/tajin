@@ -91,6 +91,21 @@ font-weight:bold;
         
     }
     button{
-        width:600px;
+        width:550px;
     }
+}
+
+@media  screen and (max-width: 709px){
+    button{
+        width:350px;
+    }
+
+    img{
+        width:350px;
+    }
+
+    .blurb{
+        padding:20px;
+    }
+    
 }
