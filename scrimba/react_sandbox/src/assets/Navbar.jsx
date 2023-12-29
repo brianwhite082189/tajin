@@ -1,8 +1,10 @@
+import MyIcon from "./images/icon.png";
+
 
 export default function () {
     return(
         <nav>
-            <img src="/" /><span>ReactFacts</span>
+           <span> <img src= {MyIcon} /><span className='facts'>ReactFacts</span></span>
             <p>React Course - Project 1</p>
         </nav>
     )
