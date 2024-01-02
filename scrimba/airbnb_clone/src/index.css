@@ -1,69 +1,101 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+nav{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 70px;
+  padding-left: 30px;
+
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+
+
+}
+
+.nav--logo{
+  height:25px;
+  max-width:82px;
+}
+
+section{
+  padding: 20px;
+}
+
+.hero-content{
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+.hero-p1{
+  width: 320px;
+  height: 56px;
+  margin-top: 0px;
+  
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+  color: #222;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%; /* 17.6px */
+  }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+  .hero-head{
+    width: 347px;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 39.6px */
+    margin-bottom: 16px;
   }
-  a:hover {
-    color: #747bff;
+
+  .hero-photo{
+    max-width: 400px;
+    align-self: center;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .card{
+    width:175px;
+    font-size:12px;
+    margin-left: 15px;
   }
-}
+
+  .card-image{
+    width:100%;
+    height:250px;
+    border-radius: 9px;
+  }
+
+  .card-stats{
+    display:flex;
+    align-items: center;
+  }
+
+  .card-star{
+    height:14px;
+  }
+
+  .grey{
+    color:#918e9b;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .wrapper{
+    display:flex;
+    flex-direction:row;
+    margin-left: 15px
+  
+  }
