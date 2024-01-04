@@ -1,0 +1,98 @@
+h1{
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  font-size: 39.06px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.953px;
+}
+
+li{
+  font-size: 25px;
+  padding: 18px 0px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  color: white;
+  margin:0;
+  border: 1px solid #000;
+  background: #282D35;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav > img{
+  width: 28px;
+  height: 28px;
+  
+
+}
+
+.facts{
+  padding-left: 5px;
+
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #21222A;
+  height: 90px;
+  padding: 0px 22px;
+}
+
+nav > span{
+  color: #61DAFB;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.113px;
+  
+
+}
+
+li::marker{
+  color: #61DAFB;
+  font-size: 30px;
+}
+
+nav > p {
+  color: #DEEBF8;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+.main{
+  height: 100vh
+}
+
+.main-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+   padding: 57px 0px 0px 25px
+}
+
+.bgicon{
+  padding-top:20vh;
+  
+  
+}
